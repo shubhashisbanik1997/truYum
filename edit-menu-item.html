@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <title>Menu Items</title>
+	</head>
+
+
+    <body>
+			<header class="header-container">
+				<span class="title">truYum</span>
+				<img class="logo" src="images/image.jpg">
+				<div class="space"></div>
+				<nav class="navigation">
+				<a class="adminLink" href="menu-item-list-admin.html">Menu</a>
+			    </nav> 
+				</div>
+    </header>
+    
+
+
+        <div class="edit-menu-item">
+        <form action="edit-menu-item-success.html">
+            <h1>Edit Menu Item</h1>
+				<label for="title">Name</label><br>
+				<input type="text" class="form-control" id="title" name="title" minlength=2 maxlength=65/><br>
+				<label for="price">Price(Rs.)</label><br>
+				<input type="text" class="form-control"  id="price" name="price" />
+                <label for="active">Active</label><br>
+                <input type="radio" id="active1" name="inStock1">Yes
+				<input type="radio" id="active2" name="inStock2">No
+				<label for="dateOfLaunch">Date Of Launch</label><br>
+				<input type="text" class="form-control" id="dateOfLaunch" name="dateOfLaunch" placeholder="dd/mm/yyyy">
+                <label for="category">Category</label><br>
+                <select class="form-control" id="category" name="category">
+                    <option value=""></option>
+                    <option>Starters</option>
+                    <option>Main Course</option>
+                    <option>Desserts</option>
+                    <option>Drinks</option>
+                </select><br>
+				<input type="checkbox" name="freeDelivery">
+					<label for="freeDelivery">Free Delivery</label><br>
+                <button type="submit" class="submit-order" name="submit">Save</button>
+            </form>
+        </div>
+    </body>
+
+
+
+        <div class="footer">
+			<span class="foot-text">Copyright &copy; 2019</span>
+		</div>
+</HTML>

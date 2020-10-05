@@ -1,0 +1,70 @@
+
+header {
+    background: rgb(48, 84, 150)
+}
+.logo {
+    width: 60px;
+    height: 60px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.title {
+    font-size: 35px;
+    padding: 20px;
+    display: inline;
+    text-align: center;
+    color: #ffffff;
+}
+.navigation {
+    color: black;
+    padding: 10px 26px;
+    margin-top: 20px;
+    display: inline-block;
+    font-size: 17px;
+    float: right;
+}
+.heading {
+    font-size: 35px;
+    padding-left: 100px;
+}
+th {
+    text-align: left;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    table-layout: fixed;
+    width: 100%;
+    padding-left: 100px;
+}
+.footer {
+    background-color: rgb(141,141,141);
+    padding: 20px;
+    position:absolute;
+    bottom:0;
+    width: 100%;
+}
+.heading2 {
+    padding: 20px;
+}
+.item-status {
+    padding-left: 80px;
+    padding-top: 50px;
+}
+.successful-status {
+    color:#28c75a;
+    padding-left: 80px;
+    padding-top: 20px;
+}
+.add-successful {
+    color:#28c75a;
+    text-align: center;
+}
+.empty-status {
+    padding-left: 80px;
+    padding-top: 20px;
+}
+.remove-successful {
+    color:#28c75a;
+    text-align: center;
+}
